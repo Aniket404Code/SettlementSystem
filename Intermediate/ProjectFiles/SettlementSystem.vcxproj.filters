@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SettlementSystem.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SettlementSystem.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SettlementSystemEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SettlementSystem">
+      <UniqueIdentifier>{D456A9EA-7FE8-3053-9E72-F43682941660}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SettlementSystem\SettlementSystem.Build.cs">
+      <Filter>Source\SettlementSystem</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SettlementSystem\SettlementSystem.cpp">
+      <Filter>Source\SettlementSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\SettlementSystem.h">
+      <Filter>Source\SettlementSystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\SettlementSystem\Buildings">
+      <UniqueIdentifier>{A25B79AF-085B-3939-AAFC-D4DBC525506E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SettlementSystem\Buildings\BuildingData.h">
+      <Filter>Source\SettlementSystem\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SettlementSystem\Buildings\BuildingTypes.h">
+      <Filter>Source\SettlementSystem\Buildings</Filter>
+    </ClInclude>
+    <Filter Include="Source\SettlementSystem\Components">
+      <UniqueIdentifier>{AE110478-4D2D-3A1F-A18C-C56DC505382C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SettlementSystem\Components\BuildingManagerComponent.cpp">
+      <Filter>Source\SettlementSystem\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Components\BuildingManagerComponent.h">
+      <Filter>Source\SettlementSystem\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SettlementSystem\Components\ProductionComponent.cpp">
+      <Filter>Source\SettlementSystem\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Components\ProductionComponent.h">
+      <Filter>Source\SettlementSystem\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SettlementSystem\Components\ResourceComponent.cpp">
+      <Filter>Source\SettlementSystem\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Components\ResourceComponent.h">
+      <Filter>Source\SettlementSystem\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SettlementSystem\Components\SettlementComponent.cpp">
+      <Filter>Source\SettlementSystem\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Components\SettlementComponent.h">
+      <Filter>Source\SettlementSystem\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\SettlementSystem\Game">
+      <UniqueIdentifier>{DDBCDDAD-2F84-332F-840D-75964F199945}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SettlementSystem\Game\SettlementGameMode.cpp">
+      <Filter>Source\SettlementSystem\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Game\SettlementGameMode.h">
+      <Filter>Source\SettlementSystem\Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SettlementSystem\Game\SettlementGameState.cpp">
+      <Filter>Source\SettlementSystem\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Game\SettlementGameState.h">
+      <Filter>Source\SettlementSystem\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\SettlementSystem\Player">
+      <UniqueIdentifier>{98722EAE-68F1-32C7-AC63-EA6028FEE2E8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SettlementSystem\Player\SettlementPlayerController.cpp">
+      <Filter>Source\SettlementSystem\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Player\SettlementPlayerController.h">
+      <Filter>Source\SettlementSystem\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\SettlementSystem\Settlement">
+      <UniqueIdentifier>{9D92D6F7-F297-3D2E-B0AA-F1D578C09B4D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SettlementSystem\Settlement\MajorSettlement.cpp">
+      <Filter>Source\SettlementSystem\Settlement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Settlement\MajorSettlement.h">
+      <Filter>Source\SettlementSystem\Settlement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SettlementSystem\Settlement\MinorSettlement.cpp">
+      <Filter>Source\SettlementSystem\Settlement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Settlement\MinorSettlement.h">
+      <Filter>Source\SettlementSystem\Settlement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SettlementSystem\Settlement\SettlementActorBase.cpp">
+      <Filter>Source\SettlementSystem\Settlement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Settlement\SettlementActorBase.h">
+      <Filter>Source\SettlementSystem\Settlement</Filter>
+    </ClInclude>
+    <Filter Include="Source\SettlementSystem\Types">
+      <UniqueIdentifier>{61ECB8B9-902B-39BF-AB15-D6D2CCB6F029}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SettlementSystem\Types\ResourceTypes.cpp">
+      <Filter>Source\SettlementSystem\Types</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Types\ResourceTypes.h">
+      <Filter>Source\SettlementSystem\Types</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SettlementSystem\Types\SettlementTypes.cpp">
+      <Filter>Source\SettlementSystem\Types</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SettlementSystem\Types\SettlementTypes.h">
+      <Filter>Source\SettlementSystem\Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

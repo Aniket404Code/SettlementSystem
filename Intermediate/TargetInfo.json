@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SettlementSystem",
+			"Path": "..\\Source\\SettlementSystem.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SettlementSystemEditor",
+			"Path": "..\\Source\\SettlementSystemEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
