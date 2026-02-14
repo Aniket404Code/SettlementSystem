@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"E:\\Assignment\\SettlementSystem\\Source\\SettlementSystem\\SettlementSystem.Build.cs",
-		"E:\\Assignment\\SettlementSystem\\Source\\SettlementSystem.Target.cs",
-		"E:\\Assignment\\SettlementSystem\\Source\\SettlementSystemEditor.Target.cs"
-	],
-	"EngineVersion": "5.4.4"
-}
